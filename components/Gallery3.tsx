@@ -33,18 +33,19 @@ const Gallery3 = () => {
            </div>
 
 
-           <div className="absolute left-2/100 top-3/10 w-[330px] flex flex-row items-center justify-center">
-              <div className="absolute md:hidden flex left-2/100 top-3/10 flex-row">
-                  <div className="w-[185px] h-[220px] left-2/100 top-3/10">
+           <div className="relative top-3/10 pt-20 px-30 flex flex-row items-center justify-center">
+              <div className="absolute md:hidden flex top-3/10 flex-row">
+                  <div className="w-1/2 h-[220px] top-3/10 pl-2">
                 <img
                   src="/Image/main1.jpeg" // Replace with actual image path
                   alt="미니추레라"
-                  className="w-[185px] h-[230px] object-cover"
+                  className="h-[220px] object-cover"
                 />
               </div>
               </div>
-
-              <div className="-mt-3 -ml-1 md:hidden absolute flex flex-col items-center justify-center gap-3 w-[145px] h-[252px] left-58/100 top-3/10 bg-[#211D1F]">
+              <div className="pr-3">
+              <div className="-mt-3 -mr-45 md:hidden absolute flex flex-col items-center justify-center gap-3 
+                 w-1/2 h-[252px] top-3/10 bg-[#211D1F]">
                 <div>
                   <h2 className="text-[21px] text-[#FFFFFF] font-bold">충청</h2>
                   <h3 className="text-[21px] text-[#FFFFFF] font-bold mb-2">미니추레라</h3>
@@ -70,6 +71,7 @@ const Gallery3 = () => {
                     <Share2 className="w-4 h-4" />
                   </button>
                 </div>
+              </div>
               </div>
             </div>
         </div>
