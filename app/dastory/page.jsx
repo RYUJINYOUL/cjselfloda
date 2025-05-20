@@ -31,12 +31,12 @@ function page (){
             height={620}
             src={"/Image/minichu.jpeg"}
           />
-        <div className='mt-10' />
+       <div className='md:mt-10 mt-5' />
         <div className='flex flex-col'>
-          <div className='text-[20px] lg:w-[1100px] text-center'>22년6월7m최신-셀프로더/미니추레라</div>
+          <div className='md:text-[20px] text-[15px] font-semibold lg:w-[1100px] text-center'>22년6월7m최신-셀프로더/미니추레라</div>
           <div className='mt-1' />
-          <div className='text-[15px] text-center'>010-9913-0673 연락주시면 어디든 달려가겠습니다.</div>
-          <div className='mt-10' />
+          <div className='md:text-[15px] text-[14px] text-center'>010-9913-0673 연락주시면 어디든 달려가겠습니다.</div>
+          <div className='md:mt-10 mt-5' />
         </div>
       </section>  
 
@@ -49,12 +49,12 @@ function page (){
             height={620}
             src={"/Image/minipocre.jpeg"}
           />
-        <div className='mt-10' />
+        <div className='md:mt-10 mt-5' />
         <div className='flex flex-col'>
-          <div className='text-[20px] lg:w-[1100px] text-center'>3톤지게차,미니포크레 코일운반</div>
+          <div className='md:text-[20px] text-[15px] font-semibold lg:w-[1100px] text-center'>3톤지게차,미니포크레 코일운반</div>
           <div className='mt-1' />
-          <div className='text-[15px] text-center'>안전을 최우선으로하는 충청추레라입니다.</div>
-          <div className='mt-10' />
+          <div className='md:text-[15px] text-[14px] text-center'>안전을 최우선으로하는 충청추레라입니다.</div>
+          <div className='md:mt-10 mt-5' />
         </div>
       </section>
      
@@ -67,12 +67,12 @@ function page (){
             height={620}
             src={"/Image/3.5.2.5.jpeg"}
           />
-        <div className='mt-10' />
+      <div className='md:mt-10 mt-5' />
         <div className='flex flex-col'>
-          <div className='text-[20px] lg:w-[1100px] text-center'>3.5톤,2.5톤 운반</div>
+          <div className='md:text-[20px] text-[15px] font-semibold lg:w-[1100px] text-center'>3.5톤,2.5톤 운반</div>
           <div className='mt-1' />
-          <div className='text-[15px] text-center'>안전을 최우선으로하는 충청추레라입니다.</div>
-          <div className='mt-10' />
+          <div className='md:text-[15px] text-[14px] text-center'>안전을 최우선으로하는 충청추레라입니다.</div>
+         <div className='md:mt-10 mt-5' />
         </div>
       </section>
 
@@ -85,12 +85,12 @@ function page (){
             height={620}
             src={"/Image/main1.jpeg"}
           />
-        <div className='mt-10' />
+      <div className='md:mt-10 mt-5' />
         <div className='flex flex-col'>
-          <div className='text-[20px] lg:w-[1100px] text-center'>적제길이 7m</div>
+          <div className='md:text-[20px] text-[15px] font-semibold lg:w-[1100px] text-center'>적제길이 7m</div>
           <div className='mt-1' />
-          <div className='text-[15px] text-center'>최신형 셀프</div>
-          <div className='mt-10' />
+          <div className='md:text-[15px] text-[14px] text-center'>최신형 셀프</div>
+          <div className='md:mt-10 mt-5' />
         </div>
       </section>
 
@@ -103,12 +103,12 @@ function page (){
             height={620}
             src={"/Image/trector.jpeg"}
           />
-        <div className='mt-10' />
+      <div className='md:mt-10 mt-5' />
         <div className='flex flex-col'>
-          <div className='text-[20px] lg:w-[1100px] text-center'>트렉터 운반</div>
+          <div className='md:text-[20px] text-[15px] font-semibold lg:w-[1100px] text-center'>트렉터 운반</div>
           <div className='mt-1' />
-          <div className='text-[15px] text-center'>풀옵션~~^^</div>
-          <div className='mt-10' />
+          <div className='md:text-[15px] text-[14px] text-center'>풀옵션~~^^</div>
+         <div className='md:mt-10 mt-5' />
         </div>
       </section>
 
