@@ -154,7 +154,7 @@ return (
               </span>
           </div>   
           <div className='md:mt-3 mt-0' />
-            <div onClick={() => {onClickCategory("시설안내" ,"/ta")}} className="w-full bg-black md:w-[1100px] md:h-[70px] h-[45px] flex flex-row lg:px-8 md:pl-0 pl-3 items-center md:justify-center justify-start border-1 border-[#d9d8d8] gap-2">
+            <div onClick={() => {onClickCategory("게시판" ,"/ta")}} className="w-full bg-black md:w-[1100px] md:h-[70px] h-[45px] flex flex-row lg:px-8 md:pl-0 pl-3 items-center md:justify-center justify-start border-1 border-[#d9d8d8] gap-2">
               <span className="ml-3 md:text-[18px] text-[15px] text-white">
                 게시판
               </span>

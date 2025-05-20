@@ -33,18 +33,18 @@ const Gallery3 = () => {
            </div>
 
 
-           <div className="absolute left-1/60 top-3/10 w-[354px] flex flex-row items-center justify-center">
-              <div className="absolute md:hidden flex left-1/30 top-3/10 flex-row">
-                  <div className="w-[197px] h-[230px] left-1/30 top-3/10">
+           <div className="absolute left-2/100 top-3/10 w-[330px] flex flex-row items-center justify-center">
+              <div className="absolute md:hidden flex left-2/100 top-3/10 flex-row">
+                  <div className="w-[185px] h-[220px] left-2/100 top-3/10">
                 <img
                   src="/Image/main1.jpeg" // Replace with actual image path
                   alt="미니추레라"
-                  className="w-[197px] h-[230px] object-cover"
+                  className="w-[185px] h-[230px] object-cover"
                 />
               </div>
               </div>
 
-              <div className="-mt-5 -ml-1 md:hidden absolute flex flex-col items-center justify-center gap-3 w-[157px] h-[262px] left-18/30 top-8/30 bg-[#211D1F]">
+              <div className="-mt-3 -ml-1 md:hidden absolute flex flex-col items-center justify-center gap-3 w-[145px] h-[252px] left-58/100 top-3/10 bg-[#211D1F]">
                 <div>
                   <h2 className="text-[21px] text-[#FFFFFF] font-bold">충청</h2>
                   <h3 className="text-[21px] text-[#FFFFFF] font-bold mb-2">미니추레라</h3>
