@@ -7,7 +7,6 @@ const Footer = () => {
 return (
      
     <section>
-    
      <section className='md:hidden block'>
         <hr className="h-2.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 md:w-[1000px] w-screen"/>
      </section>       

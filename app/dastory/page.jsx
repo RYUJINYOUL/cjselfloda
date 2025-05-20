@@ -4,7 +4,8 @@ import Footer from '@/components/Footer'
 
 function page (){
   return (
-    <div className='lg:my-10 p-4 md:pt-3.5 pt-18'>
+  <div className='relative'>
+    <div className='lg:my-10 p-4 md:pt-3.5 pt-18 flex flex-col items-center justify-center'>
       <section className='flex flex-col justify-center items-center'>
       <div className='lg:mt-13' />
       <div className='flex md:flex-row flex-col md:justify-between items-start lg:w-[1100px] w-screen'>
@@ -19,7 +20,10 @@ function page (){
        </div>
        </div>
        </div>
-        <div className='mt-5' />
+      </section>
+
+      <section className='flex flex-col justify-center items-center'>
+         <div className='mt-5' />
           <Image
             alt="mediaItem"
             className="object-contain"
@@ -34,8 +38,7 @@ function page (){
           <div className='text-[15px] text-center'>010-9913-0673 연락주시면 어디든 달려가겠습니다.</div>
           <div className='mt-10' />
         </div>
-      </section>
-
+      </section>  
 
       <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
@@ -73,7 +76,6 @@ function page (){
         </div>
       </section>
 
-
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
           <Image
@@ -91,8 +93,6 @@ function page (){
           <div className='mt-10' />
         </div>
       </section>
-
-
 
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
@@ -125,7 +125,6 @@ function page (){
        
       </section>
 
-
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
           <Image
@@ -138,7 +137,6 @@ function page (){
           <div className='md:mt-7 mt-3' />
        
       </section>
-
 
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
@@ -153,7 +151,6 @@ function page (){
        
       </section>
 
-
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
           <Image
@@ -166,7 +163,6 @@ function page (){
           <div className='md:mt-7 mt-3' />
        
       </section>
-
 
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
@@ -181,7 +177,6 @@ function page (){
        
       </section>
 
-
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
           <Image
@@ -194,7 +189,6 @@ function page (){
               <div className='md:mt-7 mt-3' />
        
       </section>
-
 
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
@@ -209,7 +203,6 @@ function page (){
        
       </section>
 
-
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
           <Image
@@ -223,7 +216,6 @@ function page (){
        
       </section>
 
-
        <section className='flex flex-col justify-center items-center'>
         <div className='mt-5' />
           <Image
@@ -233,19 +225,13 @@ function page (){
             height={620}
             src={"/Image/main11.jpeg"}
           />
-                <div className='md:mt-7 mt-3' />
+        <div className='md:mt-7 mt-3' />
        
       </section>
 
-
-      
-
-
-
-       <div className='h-[150px]'/>
          <Footer />
        </div>
-       
+       </div>
   )
 }
 
