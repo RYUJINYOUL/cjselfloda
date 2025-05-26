@@ -30,13 +30,13 @@ const FabButton = () => {
       {/* <div className="gap-3"> */}
         {openSubMenu && (
           <ul>
-           <a href="tel:0507-1315-0673">
+           <a href="tel:010-9913-0673">
            <button className="bg-[#292e3b] flex items-center justify-center w-13 h-13 xs:w-11 xs:h-11 text-white rounded-full shadow-lg transition-transform hover:scale-110">
             <CiPhone className="w-6 h-6" />
            </button>
           </a>
   
-          <a href="sms:0507-1315-0673">
+          <a href="sms:010-9913-0673">
           <button className="bg-[#292e3b] mt-3 flex items-center justify-center w-13 h-13 xs:w-11 xs:h-11 text-white rounded-full shadow-lg transition-transform hover:scale-110" 
           onClick={() => {onClickCategory("오시는 길" ,"/map")}}>
             <MessageSquare className="w-6 h-6" />
