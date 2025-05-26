@@ -96,7 +96,7 @@ export default function DefaultTable({props}) {
                   <Typography
                     variant="small"
                     color="blue-gray"
-                    className="font-normal md:w-[500px] w-[150px] line-clamp-1 text-ellipsis"
+                    className="font-normal md:w-[500px] w-[80px] line-clamp-1 truncate"
                     onClick={()=>onClickCard({ title, name, description, date })}
                   >
                     {title}
