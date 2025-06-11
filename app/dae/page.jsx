@@ -29,8 +29,8 @@ const page = () => {
  
 
 return (
-    <div className='w-screen bg-[#000000C9] h-screen flex items-center justify-center'>
-      <Gallery images={slides} />
+    <div className='bg-[#000000C9] '>
+      <Gallery className="w-full max-w-sm md:max-w-md lg:max-w-3xl h-auto" images={slides} />
    </div>
    
  )

@@ -46,9 +46,9 @@ return (
               전문 **충청추레라** (셀프로더//미니추레라) 대표 박 번 순 입니다. 010-9913-0673 언제든 전화주시면 신속히 달려가겠습니다. 
               <br/>귀사에 무궁한 발전과함께 좋은 일 가득하시길 기원합니다.
           </span>
-           <span className="text-[#333333] text-center text-[18px]" id="introText">
+           {/* <span className="text-[#333333] text-center text-[18px]" id="introText">
             ** 밥. 김치 제공 (고시텔 - 101동)
-          </span>
+          </span> */}
        </div>   
        <div className='mt-5'/>
       </div>
@@ -77,7 +77,7 @@ return (
        <div className='relative md:hidden  flex flex-row w-full px-3 py-1 justify-start items-start rounded-md gap-1' onClick={() => { push("/dae")}}>
           <Image
             alt="mediaItem"
-            className="w-[235px] h-[155px] rounded-md"
+            className="w-full h-[155px] rounded-md"
             width={235}
             height={155}
             src={"/Image/main1.jpeg"}
@@ -86,7 +86,7 @@ return (
          <div className='flex flex-col gap-1'>
           <Image
             alt="mediaItem"
-            className="w-[125px] h-[75px] rounded-md"
+            className="w-full h-[75px] rounded-md"
             width={125}
             height={75}
             src={"/Image/main2.jpeg"}
@@ -94,7 +94,7 @@ return (
 
           <Image
             alt="mediaItem"
-              className="w-[125px] h-[75px] rounded-md"
+              className="w-full h-[75px] rounded-md"
             width={125}
             height={75}
             src={"/Image/main3.jpeg"}

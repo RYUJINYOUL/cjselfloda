@@ -24,7 +24,7 @@ const Gallery3 = () => {
                 className="w-[90px] h-[90px] md:w-[120px] md:h-[120px] rounded-full mx-auto mb-4"
               />
               <div className="text-[22px] md:text-[20px] md:w-screen w-[300px] font-bold text-[#fff] whitespace-pre-line">
-                충청 미니추레라 
+                충청 5톤 미니추레라 
               </div>
               <p className="text-[15px] md:text-base text-[#ffffff99]">
                 010-9913-0673 지게차/건설장비 탁송 전문
@@ -47,7 +47,7 @@ const Gallery3 = () => {
               <div className="-mt-3 -mr-45 md:hidden absolute flex flex-col items-center justify-center gap-3 
                  w-1/2 h-[252px] top-3/10 bg-[#211D1F]">
                 <div>
-                  <h2 className="text-[21px] text-[#FFFFFF] font-bold">충청</h2>
+                  <h2 className="text-[21px] text-[#FFFFFF] font-bold">충청 5톤</h2>
                   <h3 className="text-[21px] text-[#FFFFFF] font-bold mb-2">미니추레라</h3>
                   <p className="text-[14px] text-[#FFFFFF80]">010-9913-067<br/>지게차/건설장비<br/> 탁송 전문</p>
                 </div>
